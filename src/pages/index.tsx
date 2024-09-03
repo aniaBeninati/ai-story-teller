@@ -50,7 +50,7 @@ export default function Home() {
             </div>
             <div className={style["button-container"]}>
               <Button
-                label="Genera"
+                label="Genere"
                 onClick={handleGenerate}
                 disabled={
                   protagonista.trim().length <= 0 ||
