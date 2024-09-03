@@ -1,28 +1,3 @@
-# titolo h1
-
-## titolo h2
-
-### titolo h3
-
-#### titolo h4
-
-##### titolo h5
-
-###### titolo h6
-
-V metodi e mixin sass
-V inserire campi input -> atom
-V inserire select -> atom
-- inserire switch (per definire bambino/adulto e condizionare l'output) -> atom
-- hamburger menu
-- carousel
-
-✨ Miglioramenti 
-Implementare lo switch: Aggiungere un componente switch per selezionare tra bambino/adulto e condizionare l'output.
-Aggiungere Hamburger Menu: Creare un menu mobile friendly per la navigazione.
-Inserire un Carousel: Mostrare più prodotti in una slider dinamica.
-
-
 # My E-Commerce Project
 
 ![Screenshot](./Screenshot.png)
@@ -119,3 +94,18 @@ src/
 ├── .gitignore
 ├── LICENSE
 └── next-env.d.ts
+
+
+
+V metodi e mixin sass
+V inserire campi input -> atom
+V inserire select -> atom
+- inserire switch (per definire bambino/adulto e condizionare l'output) -> atom
+- hamburger menu
+- carousel
+
+✨ Miglioramenti 
+Implementare lo switch: Aggiungere un componente switch per selezionare tra bambino/adulto e condizionare l'output.
+Aggiungere Hamburger Menu: Creare un menu mobile friendly per la navigazione.
+Inserire un Carousel: Mostrare più prodotti in una slider dinamica.
+
