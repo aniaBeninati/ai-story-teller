@@ -46,6 +46,8 @@ Inserire un Carousel: Mostrare più prodotti in una slider dinamica.
 - **SCSS**: Per la stilizzazione dell'applicazione e utilizzo di mixin e funzioni.
 - **CSS Modules**: Per uno styling modulare e locale.
 
+![Create-Palette](./Create-Palette.png)
+
 ## 📂 Struttura del Progetto
 
 ```bash
