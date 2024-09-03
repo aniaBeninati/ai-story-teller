@@ -1,0 +1,35 @@
+@mixin window-style($width: 100%) {
+    width: $width;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 5px 5px #2524224d;
+    border: 1px solid #baac97;
+}
+
+@mixin standard-animation($duration: 0.2s) {
+    -webkit-transition: all $duration ease-in-out;
+    -o-transition: all $duration ease-in-out;
+    transition: all $duration ease-in-out;
+  }
+
+  @mixin button-style($color) {
+    background-color: $color; 
+    border: none; 
+    padding: rem(10px);
+    border-radius: rem(5px);
+    color: var(--color-0);
+    cursor: pointer;
+    @include standard-animation(0.2s);
+
+    &:hover {
+        background-color: lighten($color, 10%);
+    }
+}
+
+@mixin input-style {
+    border: rem(1px) solid var(--color-40);
+    padding: rem(8px);
+    border-radius: rem(5px);
+    font-size: rem(16px);
+}
