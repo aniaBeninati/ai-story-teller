@@ -25,41 +25,18 @@
 
 ## 📂 Struttura del Progetto
 
-```bash
-src/
-├── components/
-│   ├── Atoms/
-│   │   ├── Button/
-│   │   └── Input/
-│   ├── Molecules/
-│   │   ├── Header/
-│   │   └── SelectBox/
-│   └── Organisms/
-│       └── WindowBox/
-├── constants/
-├── pages/
-│   └── nuova-pagina/
-├── styles/
-│   └── default/
-│       ├── _functions.scss
-│       ├── _mixins.scss
-├── types/
-├── .eslintrc.json
-├── .gitignore
-└── next-env.d.ts
-
-_____________________________________________________
-
-
 src/
 ├── components/
 │   ├── Atoms/
 │   │   └── Button/
 │   │   │   ├── Button.module.scss
 │   │   │   └── Button.tsx
-|       └── Input/
+|   │   └── Input/
 │   │       ├── Input.module.scss
 │   │       └── Input.tsx
+    │   └── Switch/
+│   │       ├── Switch.module.scss
+│   │       └── Switch.tsx
 │   ├── Molecules/
 │   │   ├── Header/
 │   │   │   ├── Header.module.scss
@@ -67,6 +44,9 @@ src/
 │   │   └── SelectBox/
 │   │       ├── SelectBox.module.scss
 │   │       └── SelectBox.tsx
+│   │   └── SwitchBox/
+│   │       ├── SwitchBox.module.scss
+│   │       └── SwitchBox.tsx
 │   └── Organism/
 │       └── WindowBox/
 │           ├── WindowBox.module.scss
@@ -76,7 +56,6 @@ src/
 ├── pages/
 │   └── api/
 │       └── hello.ts
-│   └── nuova-pagina/
 │       ├── index.tsx
 │       ├── _app.tsx
 │       ├── _document.tsx
@@ -90,6 +69,7 @@ src/
 │   └── Home.module.css
 ├── types/
 │   └── common.ts
+├── .env.local
 ├── .eslintrc.json
 ├── .gitignore
 ├── LICENSE
