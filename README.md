@@ -100,7 +100,9 @@ src/
 V metodi e mixin sass
 V inserire campi input -> atom
 V inserire select -> atom
-- inserire switch (per definire bambino/adulto e condizionare l'output) -> atom
+V inserire switch (per definire bambino/adulto e condizionare l'output) -> atom
+- toast
+- api browser
 - hamburger menu
 - carousel
 
