@@ -83,3 +83,18 @@ export const listaLingue = [
     value: "spagnolo",
   }
 ];
+
+export const listaVoci = [
+  {
+    label: "Donna",
+    value: "donna",
+  },
+  {
+    label: "Uomo",
+    value: "uomo",
+  },
+  {
+    label: "Bambino",
+    value: "bambino",
+  }
+];
