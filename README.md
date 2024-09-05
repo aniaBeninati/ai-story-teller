@@ -4,15 +4,10 @@
 
 ## 🚀 Panoramica del Progetto
 
-**My E-Commerce** è una semplice applicazione e-commerce costruita con un approccio atomic design. Include una pagina home per visualizzare i prodotti e una pagina carrello per gestire gli articoli aggiunti. Il progetto dimostra l'utilizzo di React, Next.js, SCSS, e altre tecnologie moderne per creare un'app scalabile e riutilizzabile.
+**My E-Commerce** è una semplice applicazione e-commerce costruita con un approccio atomic design.  Il progetto dimostra l'utilizzo di React, Next.js, SCSS, e altre tecnologie moderne per creare un'app scalabile e riutilizzabile.
 
 ### Funzionalità Principali
 
-<!--
-- **Pagina Home**: Visualizza i prodotti scaricati da un server. Permette di aggiungere prodotti al carrello.
-- **Pagina Carrello**: Mostra i prodotti aggiunti al carrello, con possibilità di rimuovere articoli e aggiornare la visualizzazione.
-- **Persistenza dei Dati**: Utilizza `localStorage` per memorizzare e recuperare i dati del carrello tra le pagine.
-- **Navigazione**: Utilizza Next.js per gestire le pagine e la navigazione. -->
 
 ## 🛠️ Tecnologie Utilizzate
 
@@ -76,13 +71,14 @@ src/
 └── next-env.d.ts
 
 
-
+<!--
 V metodi e mixin sass
 V inserire campi input -> atom
 V inserire select -> atom
 V inserire switch (per definire bambino/adulto e condizionare l'output) -> atom
-- toast
-- api browser
+V toast
+V api browser
+ -->
 - hamburger menu
 - carousel
 
