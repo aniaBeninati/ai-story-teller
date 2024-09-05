@@ -43,7 +43,7 @@ export default function Home() {
       lingue.trim().length > 0
     ) {
       try {
-        const response = await fetch("/api/generate", {
+        const response = await fetch("api/generate", {
           headers: { "Content-Type": "application/json" },
           method: "POST",
           body: JSON.stringify({ prompt }),
