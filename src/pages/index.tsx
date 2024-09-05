@@ -6,6 +6,7 @@ import Input from "@/components/Atoms/Input/Input";
 import SelectBox from "@/components/Molecules/SelectBox/SelectBox";
 import { useState } from "react";
 import { listaGeneri } from "@/constants/common";
+import { listaLingue } from "@/constants/common";
 import Button from "@/components/Atoms/Button/Button";
 import {
   GenerateContentCandidate,
@@ -18,6 +19,7 @@ export default function Home() {
   const [protagonista, setProtagonista] = useState("");
   const [antagonista, setAntagonista] = useState("");
   const [genere, setGenere] = useState("");
+  const [lingue, setLingue] = useState("");
   const [pegi18, setPegi18] = useState(false);
   const [descrizione, setDescrizione] = useState("");
   
@@ -31,13 +33,14 @@ export default function Home() {
     setError(false);
     const prompt = `genera un racconto ${genere} per ${
     pegi18 ? "adulti" : "bambini"
-    }, con il protagonista chiamato ${protagonista} e l'antagonista chiamato ${antagonista}.`;
+    }, con il protagonista chiamato ${protagonista} e l'antagonista chiamato ${antagonista}, in lingua ${lingue}.`;
     
    
       if (
         protagonista.trim().length > 0 &&
         antagonista.trim().length > 0 &&
-        genere.trim().length > 0
+        genere.trim().length > 0 &&
+        lingue.trim().length > 0
       ) {
         try {
           const response = await fetch("/api/generate", {
@@ -111,6 +114,11 @@ export default function Home() {
     label="Genere:"
     list={listaGeneri}
     setAction={setGenere}
+    />
+    <SelectBox
+    label="Lingue:"
+    list={listaLingue}
+    setAction={setLingue}
     />
     <SwitchBox
     label="Per Adulti:"

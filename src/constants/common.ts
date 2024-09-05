@@ -60,3 +60,26 @@ export const listaGeneri = [
     value: "documentario",
   },
 ];
+
+export const listaLingue = [
+  {
+    label: "Italiano",
+    value: "italiano",
+  },
+  {
+    label: "Inglese",
+    value: "inglese",
+  },
+  {
+    label: "Francese",
+    value: "francese",
+  },
+  {
+    label: "Tedesco",
+    value: "tedesco",
+  },
+  {
+    label: "Spagnolo",
+    value: "spagnolo",
+  }
+];
