@@ -1,20 +1,26 @@
-# My E-Commerce Project
+# AI Story Teller
 
 ![Screenshot](./Screenshot.png)
+![Screenshot1](./Screenshot1.png)
 
 ## 🚀 Panoramica del Progetto
 
-**My E-Commerce** è una semplice applicazione e-commerce costruita con un approccio atomic design.  Il progetto dimostra l'utilizzo di React, Next.js, SCSS, e altre tecnologie moderne per creare un'app scalabile e riutilizzabile.
+AI Story Teller è un'applicazione che genera racconti personalizzati utilizzando l'intelligenza artificiale. Gli utenti possono inserire nomi di protagonisti e antagonisti, scegliere il genere del racconto e la lingua, e decidere se il racconto è per adulti o bambini. Il progetto sfrutta tecnologie moderne come React e Next.js per creare un'esperienza utente interattiva e dinamica.
 
 ### Funzionalità Principali
 
+- **Generazione di Racconti Personalizzati**: Crea racconti unici inserendo i dettagli del protagonista, antagonista, genere e lingua.
+- **Controllo per Adulti/Bambini**: Usa uno switch per selezionare se il racconto è destinato a un pubblico adulto o per bambini.
+- **Sintesi Vocale**: Ascolta il racconto generato utilizzando voci selezionabili (maschio, femmina, bambino).
+- **Interfaccia Reattiva**: L'applicazione è ottimizzata per dispositivi mobili con un layout adattabile.
+- **Notifiche Toast**: Mostra feedback agli utenti in modo elegante utilizzando notifiche stile toast.
 
 ## 🛠️ Tecnologie Utilizzate
 
 - **React**: Per costruire l'interfaccia utente e gestire lo stato dell'applicazione.
 - **Next.js**: Per la gestione delle pagine e della navigazione lato server.
-- **SCSS**: Per la stilizzazione dell'applicazione e utilizzo di mixin e funzioni.
-- **CSS Modules**: Per uno styling modulare e locale.
+- **SCSS**: Per la stilizzazione dell'applicazione con l'uso di mixin e funzioni.
+- **CSS Modules**: Per uno styling modulare e locale che evita conflitti di stile.
 
 ![Create-Palette](./Create-Palette.png)
 
@@ -23,44 +29,30 @@
 src/
 ├── components/
 │   ├── Atoms/
-│   │   └── Button/
-│   │   │   ├── Button.module.scss
-│   │   │   └── Button.tsx
-|   │   └── Input/
-│   │       ├── Input.module.scss
-│   │       └── Input.tsx
-    │   └── Switch/
-│   │       ├── Switch.module.scss
-│   │       └── Switch.tsx
+│   │   ├── Button/
+│   │   ├── Input/
+│   │   ├── Switch/
+│   │   └── Toast/
 │   ├── Molecules/
 │   │   ├── Header/
-│   │   │   ├── Header.module.scss
-│   │   │   └── Header.tsx
-│   │   └── SelectBox/
-│   │       ├── SelectBox.module.scss
-│   │       └── SelectBox.tsx
+│   │   ├── SelectBox/
 │   │   └── SwitchBox/
-│   │       ├── SwitchBox.module.scss
-│   │       └── SwitchBox.tsx
 │   └── Organism/
 │       └── WindowBox/
-│           ├── WindowBox.module.scss
-│           └── WindowBox.tsx
 ├── constants/
 │   └── common.ts
 ├── pages/
-│   └── api/
-│       └── hello.ts
-│       ├── index.tsx
-│       ├── _app.tsx
-│       ├── _document.tsx
-│       └── index.tsx
+│   ├── api/
+│   │   └── hello.ts
+│   ├── index.tsx
+│   ├── _app.tsx
+│   ├── _document.tsx
 ├── styles/
-│   └── default/
-│       ├── _functions.scss
-│       ├── _mixins.scss
-│       ├── index.scss
-│       └── globals.scss
+│   ├── default/
+│   │   ├── _functions.scss
+│   │   ├── _mixins.scss
+│   │   ├── index.scss
+│   │   └── globals.scss
 │   └── Home.module.css
 ├── types/
 │   └── common.ts
@@ -70,6 +62,35 @@ src/
 ├── LICENSE
 └── next-env.d.ts
 
+
+## 🌟 Miglioramenti Previsti
+
+- **Switch per Bambini/Adulti**: Aggiunta di un componente switch per selezionare tra bambino/adulto e condizionare l'output dei racconti.
+- **Hamburger Menu**: Implementazione di un menu mobile-friendly per una navigazione intuitiva.
+- **Carousel**: Creazione di un carousel per mostrare più prodotti o storie in una slider dinamica.
+
+## 🛠️ Installazione
+
+1. Clona il repository:
+    ```bash
+    git clone https://github.com/tuo-username/ai-story-teller.git
+    ```
+2. Installa le dipendenze:
+    ```bash
+    npm install
+    ```
+3. Avvia l'applicazione:
+    ```bash
+    npm run dev
+    ```
+
+## 🌐 Demo Online
+
+Visita la demo del progetto: [AI Story Teller](https://ai-story-teller-xi.vercel.app/)
+
+## 📜 Licenza
+
+Questo progetto è rilasciato sotto la licenza MIT. Vedi il file [LICENSE](./LICENSE) per maggiori dettagli.
 
 <!--
 V metodi e mixin sass
@@ -83,7 +104,6 @@ V api browser
 - carousel
 
 ✨ Miglioramenti 
-Implementare lo switch: Aggiungere un componente switch per selezionare tra bambino/adulto e condizionare l'output.
 Aggiungere Hamburger Menu: Creare un menu mobile friendly per la navigazione.
 Inserire un Carousel: Mostrare più prodotti in una slider dinamica.
 

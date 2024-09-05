@@ -34,8 +34,7 @@ export default function Home() {
     setError(false);
     const prompt = `genera un racconto ${genere} per ${
       pegi18 ? "adulti" : "bambini"
-    }, con il protagonista chiamato ${protagonista} e 
-    l'antagonista chiamato ${antagonista}, in lingua ${lingue}.`;
+    }, con il protagonista chiamato ${protagonista} e l'antagonista chiamato ${antagonista}, in lingua ${lingue}.`;
 
     if (
       protagonista.trim().length > 0 &&
