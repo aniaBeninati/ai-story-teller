@@ -99,13 +99,12 @@ export default function Home() {
           className={`${style.hamburgerWindow} ${
             showHamburger ? style.active : ""
           }`}
-        >  <strong>AI Story Teller</strong> è un' <strong>innovativa applicazione</strong> basata sull' <strong>intelligenza artificiale</strong> 
-        pensata per dare vita a <strong>storie su misura</strong> con pochi semplici passaggi. <strong>Inserisci i nomi dei protagonisti</strong>
-        <strong>scegli il genere</strong> e la <strong>lingua preferita</strong> e lascia che l'AI crei <strong>racconti unici e affascinanti</strong> 
-        Perfetto per <strong>stimolare la creatività</strong> di grandi e piccoli AI Story Teller è l' <strong>alleato ideale</strong> per generare 
-        <strong>contenuti narrativi personalizzati</strong> trasformando ogni idea in una <strong>storia avvincente</strong> senza bisogno di essere uno scrittore esperto. 
-        Un’esperienza che <strong>intrattiene, ispira</strong> e porta la <strong>magia della narrazione</strong> direttamente nelle tue mani.
-      
+        >  <strong>AI Story Teller</strong> è un&apos;<strong>innovativa applicazione</strong> basata sull&apos;<strong>intelligenza artificiale</strong> 
+        pensata per dare vita a <strong>storie su misura</strong> con pochi semplici passaggi <strong>Inserisci i nomi dei protagonisti</strong> 
+        <strong>scegli il genere</strong> e la <strong>lingua preferita</strong> e lascia che l&apos;AI crei <strong>racconti unici e affascinanti</strong> 
+        Perfetto per <strong>stimolare la creatività</strong> di grandi e piccoli AI Story Teller è l&apos;<strong>alleato ideale</strong> per generare 
+        <strong>contenuti narrativi personalizzati</strong> trasformando ogni idea in una <strong>storia avvincente</strong> senza bisogno di essere uno scrittore esperto 
+        Un&apos;esperienza che <strong>intrattiene ispira</strong> e porta la <strong>magia della narrazione</strong> direttamente nelle tue mani
         </div>
         {error && (
           <Toast
