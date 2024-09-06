@@ -99,11 +99,10 @@ V inserire select -> atom
 V inserire switch (per definire bambino/adulto e condizionare l'output) -> atom
 V toast
 V api browser
+V hamburger menu
+V carousel
  -->
-- hamburger menu
-- carousel
 
-✨ Miglioramenti 
-Aggiungere Hamburger Menu: Creare un menu mobile friendly per la navigazione.
-Inserire un Carousel: Mostrare più prodotti in una slider dinamica.
+
+
 
